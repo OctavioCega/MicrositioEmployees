@@ -5,6 +5,9 @@ angular.module("FinalApp")
     var postEmployeeUrl = "http://dummy.restapiexample.com/api/v1/create";
     var updateEmployeeUrl = "http://dummy.restapiexample.com/api/v1/update/"
     var deleteEmployeeUrl = "http://dummy.restapiexample.com/api/v1/delete/";
+    //Me baso en el video 
+    //https://www.youtube.com/watch?v=DYZ2jQxxKfI&list=PLhymOpdHzdWJSCfGdx5NAtrU6jjZjGEyE&index=3&t=6s
+    //Aplico una estructura similar en el service
     var EmployeeResource ={
 
         getEmployees: function(){
