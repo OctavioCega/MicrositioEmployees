@@ -37,7 +37,7 @@ angular.module("FinalApp")
         }
 
         $scope.submitEmployee = function (employee) {
-
+            //console.log("Subiendo usuario...");
             //Si pase un id entonces quiero PUT
             if ($routeParams.id) {
                 EmployeeResource.updateEmployee(employee).then(function (data) {

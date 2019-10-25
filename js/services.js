@@ -7,7 +7,7 @@ angular.module("FinalApp")
     var deleteEmployeeUrl = "http://dummy.restapiexample.com/api/v1/delete/";
     //Me baso en el video 
     //https://www.youtube.com/watch?v=DYZ2jQxxKfI&list=PLhymOpdHzdWJSCfGdx5NAtrU6jjZjGEyE&index=3&t=6s
-    //Aplico una estructura similar en el service
+    //Aplico una estructura similar en el service agregando los metodos cruuuuddd
     var EmployeeResource ={
 
         getEmployees: function(){
